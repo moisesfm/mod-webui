@@ -47,7 +47,8 @@
                      <tr>
                         <td colspan="2"><h3>User attributes:</h3></td>
                      </tr>
-                     %for attr, value in sorted(user.__dict__.iteritems()):
+                     %for attr in sorted(user.__dict__):
+                     %value = user.__dict__[attr]
                      %if attr not in ['address1', 'address2', 'address3', 'address4', 'address5', 'address6', 'alias', 'can_submit_commands', 'customs', 'email', 'host_notifications_enabled', 'host_notification_options', 'host_notification_period', 'min_business_impact', 'pager', 'service_notifications_enabled', 'service_notification_options', 'service_notification_period']:
                      %continue
                      %end
