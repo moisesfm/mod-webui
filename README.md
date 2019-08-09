@@ -33,3 +33,4 @@ See the [`contributing.md`](https://github.com/shinken-monitoring/mod-webui/blob
 ## Contributing
 
 See the [`contributing.md`](https://github.com/shinken-monitoring/mod-webui/blob/develop/contributing.md) file.
+ 
